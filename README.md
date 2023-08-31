@@ -5,6 +5,8 @@
 
 ## Format C#.filename,line#:Edit/Change
 
+## C1
+
 C1.Resource Bundle 'messages',Folder: Created a bundle to hold my en_US and fr_CA messages.properties
 
 C1.messages_en_US.properties,Line-1: added my 'key' and welcome message for english
@@ -90,4 +92,28 @@ C1.app.component.ts,Line-91: returned the http extension that was set for this w
 C1.app.component.ts,Line-102: added export interface for Welcome
 
 C1.app.component.ts,Line-103: added message as a string
+
+C1.app.component.html,Line-25: added column size to display messages on seperate lines
+
+C1.app.component.html,Line-26: added the combinedWelcomeMessage to grab the messages and display them
+
+## C2
+
+C2.app.component.ts,Line-59: added a for const to get the price and do a crud equation
+
+C2.app.component.ts,Line-60: for priceCAD added crud equation to produce CAD
+
+C2.app.component.ts,Line-61: for priceEUR added crud equation to produce EUR
+
+C2.app.component.ts,Line-119: added priceCAD string in room interface
+
+C2.app.component.ts,Line-120: added priceEUR string in room interface
+
+C2.app.component.html,Line-81: added Price 'USD' and a new line after
+
+C2.app.component.html,Line-82: added Price 'CAD' and the room.priceCAD to grab price and display it
+
+C2.app.component.html,Line-83: added price 'EUR' and the room.priceEUR to grab price and display it 
+
+## C3
 
