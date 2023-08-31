@@ -91,4 +91,3 @@ C1.app.component.ts,Line-102: added export interface for Welcome
 
 C1.app.component.ts,Line-103: added message as a string
 
-C2.
