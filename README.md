@@ -117,3 +117,123 @@ C2.app.component.html,Line-83: added price 'EUR' and the room.priceEUR to grab p
 
 ## C3
 
+C3.TimeConversion,Line-6: created a new class for my time conversions
+
+C3.TimeConversion,Line-8: created a getConvertedTimes using zoneDataTime
+
+C3.TimeConversion,Line-9: converted times for zoneId America/Newyork
+
+C3.TimeConversion,Line-10: converted times for zoneId America/Denver
+
+C3.TimeConversion,Line-11: converted times for zoneId UTC
+
+C3.TimeConversion,Line-13: return converted times 
+
+C3.TimeConversion,Line-16: created another method with protect string for the controller to grab the times
+
+C3.TimeConversion,Line-17: used zoneDateTime to grab original time (now) and split it
+
+C3.TimeConversion,Line-18: added int hours to hold the hours
+
+C3.TimeConversion,Line-19: added int minutes to hold minutes
+
+C3.TimeConversion,Line-20: created a string to display time in 12hr clock format
+
+C3.TimeConversion,Line-21: arg for 12-hour clock 
+
+C3.TimeConversion,Line-22: return string.format for 12-hour clock
+
+C3.TimeZoneConversionController,Line-12: added @ Restcontroller
+
+C3.TimeZoneConversionController,Line-13: added @ RequestMapping /api
+
+C3.TimeZoneConversionController,Line-14: added @ CrossOrigin for communication
+
+C3.TimeZoneConversionController,Line-15: created a public class called TimeZoneConversionController
+
+C3.TimeZoneConversionController,Line-17: added @ Getmapping with /converted-times extension
+
+C3.TimeZoneConversionController,Line-18: created a public convertedties to combine my multithreads
+
+C3.TimeZoneConversionController,Line-19: added AtomicReference to hold string
+
+C3.TimeZoneConversionController,Line-20: used ZoneDatetime to grab the time with the (now)
+
+C3.TimeZoneConversionController,Line-22: created a thread for ET
+
+C3.TimeZoneConversionController,Line-23: added a new time conversion to hold time
+
+C3.TimeZoneConversionController,Line-24: using ettime with string to combine the times into a single string to display
+
+C3.TimeZoneConversionController,Line-25: combined ettime using atomicReference to add this time with updateandget
+
+C3.TimeZoneConversionController,Line-28: created a thread for MT
+
+C3.TimeZoneConversionController,Line-29: added new time conversion to hold time
+
+C3.TimeZoneConversionController,Line-30: using mttime with string to combine the times into a single string to display
+
+C3.TimeZoneConversionController,Line-31: combine mttime using atomicReference to add this time with updateandget
+
+C3.TimeZoneConversionController,Line-34: created a thread for UTC
+
+C3.TimeZoneConversionController,Line-35: added new time conversion to hold time
+
+C3.TimeZoneConversionController,Line-36: using utctime with string to combine the time into a single string to display
+
+C3.TimeZoneConversionController,Line-37: combine utctime using atomicReference to add this time with updateandget
+
+C3.TimeZoneConversionController,Line-40: started etthread
+
+C3.TimeZoneConversionController,Line-41: started mtthread
+
+C3.TimeZoneConversionController,Line-42: started utcthread
+
+C3.TimeZoneConversionController,Line-44: used a try catch block to join thread 
+
+C3.TimeZoneConversionController,Line-45: et thread.join
+
+C3.TimeZoneConversionController,Line-46: mt thread.join
+
+C3.TimeZoneConversionController,Line-47: uts thread.join
+
+C3.TimeZoneConversionController,Line-48: ended catch block if error grab message
+
+C3.TimeZoneConversionController,Line-49: error throw stacktrack error 
+
+C3.TimeZoneConversionController,Line-52: return new convertedTimes with .get()
+
+C3.ConvertedTimes,Line-7: added @ AllArgsConstructor
+
+C3.ConvertedTimes,Line-8: added @ Getter for lombak
+
+C3.ConvertedTimes,Line-9: added @ Setter for lombak
+
+C3.ConvertedTimes,Line-10: created a public class called ConvertedTimes to communicate to the front end
+
+C3.ConvertedTimes,Line-11: declared string named convertedTimes
+
+C3.app.component.ts,Line-31: added convertedTimes as an empty string
+
+C3.app.component.ts,Line-43: used this.get to grab the convertedTimes and .subscribe to grab the data
+
+C3.app.component.ts,Line-44: set this. to data. named convertedTimes
+
+C3.app.component.ts,Line-103: getConvertedTimes using Observable (any)
+
+C3.app.component.ts,Line-104: return the httpclient that was set in the controller base/api/converted-times
+
+C3.app.component.ts,Line-119: export Time interface 
+
+C3.app.component.ts,Line-120: message set as a string from the request ConvertedTimes class
+
+C3.app.component.html,Line-28: added a section for the called presentation info
+
+C3.app.component.html,Line-29: added a h2 line explaining the start time of the live presentation for the different time zones
+
+C3.app.component.html,Line-30: added a p to point users in the correct spot for there current time zone
+
+C3.app.component.html,Line-31: added the ConvertedTimes to display in a single line
+
+C3.app.component.html,Line-32: closed the presentation info section 
+
