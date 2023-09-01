@@ -237,3 +237,29 @@ C3.app.component.html,Line-31: added the ConvertedTimes to display in a single l
 
 C3.app.component.html,Line-32: closed the presentation info section 
 
+## D1
+
+D1.Dockerfile,Line-1: Created a docker file and Added FROM and my java version (amazoncorretto 17)
+
+D1.Dockerfile,Line-3: added a WORKDIR called it /app
+
+D1.DockerFile,Line-5: used copy target/my jar name in maven I ran mvn clean package to package my files
+
+D1.DockerFile,Line-7: called port 8080 so my container can run on localhost:8080
+
+D1.DockerFile,Line-9: used CMD for my java type and jar name 
+
+## D2
+
+D2.Project Terminal: ran docker build -t and my image name to build my image 
+
+D2.Project Terminal: ran docker run --name -p -d to build and name my container with my image
+
+D2.Project Terminal: ran docker log to prove my container is running in port 8080
+
+D2.Project Terminal: ran docker ps to show my container is running while screenshotted localhost8080
+
+## D3
+
+D3. First I would choose Amazon Web Services(AWS), after signing up I would make sure my application is containerized using docker. Meaning create a docker image that contains my code, dependencies and a Dockerfile that specifies how to run it. Then create a repository using Elastic Container Registry (ECR) to store my docker image. Pushing my image to the ECR using docker. Decide what infrastructure to us depending on my application. Next a service would need to be created to manage the deployment of my containers. Configure networks for my application that will help with balancing everything together. Test my application thoroughly add in a backup and recovery and finally document my process.    
+
