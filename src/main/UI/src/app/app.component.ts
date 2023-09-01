@@ -28,6 +28,7 @@ export class AppComponent implements OnInit{
   currentCheckInVal!:string;
   currentCheckOutVal!:string;
   combinedWelcomeMessage: string = '';
+  convertedTimes: string = '';
 
     ngOnInit(){
       this.roomsearch= new FormGroup({
@@ -37,6 +38,10 @@ export class AppComponent implements OnInit{
 
       this.getWelcomeMessage().subscribe((data) => {
         this.combinedWelcomeMessage = data.message;
+      });
+
+      this.getConvertedTimes().subscribe((data) => {
+        this.convertedTimes = data.convertedTimes;
       });
 
  //     this.rooms=ROOMS;
@@ -95,6 +100,9 @@ export class AppComponent implements OnInit{
     getWelcomeMessage(): Observable<any> {
       return this.httpClient.get<Welcome>(this.baseURL + '/api/welcome',{responseType: 'json'});
     }
+    getConvertedTimes(): Observable<any> {
+      return this.httpClient.get<Time>(this.baseURL + '/api/converted-times', {responseType: 'json'});
+    }
 
   }
 
@@ -106,6 +114,10 @@ export interface Roomsearch{
   }
   export interface Welcome{
   message:string;
+  }
+
+  export interface Time{
+  message:String;
   }
 
 
