@@ -44,11 +44,11 @@ Once that is done building, in IntelliJ click on the M on the right toolbar and 
 <p align="center">
 <img src="https://imgur.com/YAEV2iZ.png" height="100%" width="120%" alt="Program CLI"/>
 </p>
-Hit the Green Run button on the top of the screen
+Hit the Green Run/Arrow button on the top of the screen
 <p align="center">
-<img src="https://imgur.com/vVlBk3i.png" height="100%" width="120%" alt="Program CLI"/>
+<img src="https://imgur.com/zqjchp3.png" height="100%" width="120%" alt="Program CLI"/>
 </p>
-Once these steps are done in that order please open and empty browser and type in localhost:8080
+Once it is done loading please open and empty browser and type in localhost:8080
 <p align="center">
 <img src="https://imgur.com/v5Rsbbl.png" height="100%" width="120%" alt="Program CLI"/>
 </p>
