@@ -1,6 +1,60 @@
+# Advanced Java – D387
+
+## Landon Hotel Website 
+
+<p align="center">
+<img src="https://imgur.com/RVxKBFq.png" height="120%" width="120%" alt="Program CLI"/>
+</p>
+<p align="center">
+<img src="https://imgur.com/Acxlt96.png" height="120%" width="120%" alt="Program CLI"/>
+</p>
+<p align="center">
+<img src="https://imgur.com/fZ101Av.png" height="120%" width="120%" alt="Program CLI"/>
+</p>
+<p align="center">
+<img src="https://imgur.com/1o9aBIi.png" height="120%" width="120%" alt="Program CLI"/>
+</p>
+
+### Description
+
+This is my website for The Landon Hotel. The webiste keeps track of all rooms available for each of the dates allowing only rooms that are free to show up. If a room is taken they webiste will not display the room for the user entered dates (try a different date). This program has a frontend and backend that can be hosted via docker or locally through localhost:8080.
+
+## Usage for cloning and local host
+
+To clone the code in IntelliJ IDEA please download and open the community version or ultimate: 
+Navagate to the welcome screen
+<p align="center">
+<img src="https://imgur.com/DPDMqrx.png" height="100%" width="120%" alt="Program CLI"/>
+</p>
+Please click on "Get From VSC"
+<p align="center">
+<img src="https://imgur.com/5IGbH2S.png" height="100%" width="120%" alt="Program CLI"/>
+</p>
+Copy the link 
+
+```commandline
+https://github.com/RenaeVillarreal/PackageDeliveryProject.git
+```
+
+Paste it in the URL section and click clone
+<p align="center">
+<img src="https://imgur.com/kVT77Cq.png" height="100%" width="120%" alt="Program CLI"/>
+</p>
+Once that is done building, in IntelliJ click on the M on the right toolbar and hit the refresh button to make sure the plugins and dependencies have been set properly
+<p align="center">
+<img src="https://imgur.com/YAEV2iZ.png" height="100%" width="120%" alt="Program CLI"/>
+</p>
+Hit the Green Run button on the top of the screen
+<p align="center">
+<img src="https://imgur.com/vVlBk3i.png" height="100%" width="120%" alt="Program CLI"/>
+</p>
+Once these steps are done in that order please open and empty browser and type in localhost:8080
+<p align="center">
+<img src="https://imgur.com/v5Rsbbl.png" height="100%" width="120%" alt="Program CLI"/>
+</p>
 
 
-# WESTERN GOVERNOR UNIVERSITY 
+# !Ignore! Edits
 ## D387 – ADVANCED JAVA
 
 ## Format C#.filename,line#:Edit/Change
