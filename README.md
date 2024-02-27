@@ -33,7 +33,7 @@ Please click on "Get From VSC"
 Copy the link 
 
 ```commandline
-https://github.com/RenaeVillarreal/PackageDeliveryProject.git
+https://github.com/RenaeVillarreal/Landon_Hotel_Website.git
 ```
 
 Paste it in the URL section and click clone
