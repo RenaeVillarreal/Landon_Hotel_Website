@@ -48,7 +48,7 @@ Hit the Green Run/Arrow button on the top of the screen
 <p align="center">
 <img src="https://imgur.com/zqjchp3.png" height="100%" width="120%" alt="Program CLI"/>
 </p>
-Once it is done loading please open and empty browser and type in localhost:8080
+Once it is done loading please open an empty browser and type in localhost:8080
 <p align="center">
 <img src="https://imgur.com/v5Rsbbl.png" height="100%" width="120%" alt="Program CLI"/>
 </p>
