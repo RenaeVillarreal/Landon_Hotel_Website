@@ -17,7 +17,7 @@
 
 ### Description
 
-This is my website for The Landon Hotel. The webiste keeps track of all rooms available for each of the dates allowing only rooms that are free to show up. If a room is taken they webiste will not display the room for the user entered dates (try a different date). This program has a frontend and backend that can be hosted via docker or locally through localhost:8080.
+This is my website for The Landon Hotel. The webiste keeps track of all rooms available for each of the dates allowing only rooms that are free to show up. If a room is taken they webiste will not display the room for the user entered dates (try a different date). This program has a frontend and backend that can be hosted via docker or locally with IntelliJ IDEA through localhost:8080.
 
 ## Usage for cloning and local host
 
